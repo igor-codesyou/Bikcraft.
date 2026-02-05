@@ -1,9 +1,9 @@
-<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M10 2.66699C6.50001 2.66699 3.33301 5.34999 3.33301 9.49999C3.33301 12.15 5.37501 15.267 9.45001 18.858C9.604 18.9909 9.80061 19.064 10.004 19.064C10.2074 19.064 10.404 18.9909 10.558 18.858C14.625 15.267 16.667 12.15 16.667 9.49999C16.667 5.34999 13.5 2.66699 10 2.66699ZM10 11C9.08301 11 8.33301 10.25 8.33301 9.33299C8.33301 8.41599 9.08301 7.66599 10 7.66599C10.917 7.66599 11.667 8.41599 11.667 9.33299C11.667 10.25 10.917 11 10 11Z" fill="url(#paint0_linear_44_348)"/>
-<defs>
-<linearGradient id="paint0_linear_44_348" x1="10.0307" y1="2.66699" x2="10.0307" y2="19.064" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FFBF00"/>
-<stop offset="1" stop-color="#F2A60C"/>
-</linearGradient>
-</defs>
+<svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M10 1.667c-3.5 0-6.667 2.683-6.667 6.833 0 2.65 2.042 5.767 6.117 9.358a.848.848 0 0 0 1.108 0c4.067-3.591 6.109-6.708 6.109-9.358 0-4.15-3.167-6.833-6.667-6.833ZM10 10c-.917 0-1.667-.75-1.667-1.667S9.083 6.666 10 6.666s1.667.75 1.667 1.667S10.917 10 10 10Z" fill="url(#a)"/>
+  <defs>
+    <linearGradient id="a" x1="10" y1="1.667" x2="10" y2="18.064" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFBF00"/>
+      <stop offset="1" stop-color="#F2A50C"/>
+    </linearGradient>
+  </defs>
 </svg>
