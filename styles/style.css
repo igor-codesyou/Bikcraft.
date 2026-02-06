@@ -15,5 +15,7 @@
 @import url(bikes/bik-list.css);
 @import url(bikes/biks.css);
 /* SECURE */
-@import url(seguros/seguros.css);
+@import url(seguros/insurance.css);
+@import url(seguros/benefit.css);
+@import url(seguros/questions.css);
 @import url(terms/terms.css);
