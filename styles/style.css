@@ -13,6 +13,7 @@
 @import url(home/testimonials.css);
 /* BIK LIST */
 @import url(bikes/bik-list.css);
+@import url(bikes/biks.css);
 /* SECURE */
 @import url(seguros/seguros.css);
 @import url(terms/terms.css);
