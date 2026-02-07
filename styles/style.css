@@ -1,21 +1,27 @@
-@import url(global/global.css);
+@import url(./global/global.css);
 /* UTILITY */
-@import url(utility/typography.css);
-@import url(utility/colors.css);
-@import url(utility/components.css);
+@import url(./utility/typography.css);
+@import url(./utility/colors.css);
+@import url(./utility/components.css);
+@import url(./utility/form.css);
 /* HEADER & FOOTER */
-@import url(global/header.css);
-@import url(global/footer.css);
+@import url(./global/header.css);
+@import url(./global/footer.css);
 /* HOME */
-@import url(home/intro.css);
-@import url(home/tech.css);
-@import url(home/partners.css);
-@import url(home/testimonials.css);
+@import url(./home/intro.css);
+@import url(./home/tech.css);
+@import url(./home/partners.css);
+@import url(./home/testimonials.css);
 /* BIK LIST */
-@import url(bikes/bik-list.css);
-@import url(bikes/biks.css);
+@import url(./bikes/bik-list.css);
+@import url(./bikes/biks.css);
+@import url(./bik-page/bik-page.css);
+@import url(./bik-page/insurance2.css);
 /* SECURE */
-@import url(seguros/insurance.css);
-@import url(seguros/benefit.css);
-@import url(seguros/questions.css);
-@import url(terms/terms.css);
+@import url(./seguros/insurance.css);
+@import url(./seguros/benefit.css);
+@import url(./seguros/questions.css);
+@import url(./terms/terms.css);
+/* CONTACT */
+@import url(./contact/contact.css);
+@import url(./contact/store.css);

@@ -46,11 +46,17 @@
         sans-serif;
 }
 
+.font-xss {
+    font:
+        500 0.75rem/1.4 "Poppins",
+        sans-serif;
+}
+
 /* SECONDARY */
 
 .font-xl-b {
     font:
-        600 2.25rem/1.333 "Roboto",
+        600 2.25rem/1.4 "Roboto",
         sans-serif;
 }
 
