@@ -14,13 +14,15 @@
 }
 
 .contact-data {
-  background: var(--c12);
+  background: var(--c12) url("../../img/dec/bottom-left.svg") no-repeat bottom
+    20px left 20px;
   border-radius: 6px 0 0 6px;
 }
 
 .contact-form {
-  background: var(--c0);
   border-radius: 0 6px 6px 0;
+  background: var(--c0) url("../../img/dec/bottom-right.svg") no-repeat bottom
+    20px right 20px;
 }
 
 .contact-data h2 {
@@ -81,6 +83,7 @@
   }
   .contact-data {
     border-radius: 6px 6px 0 0;
+    background: var(--c12);
   }
   .contact-form {
     border-radius: 0 0 6px 6px;
