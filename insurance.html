@@ -62,7 +62,7 @@
                     <li>Suporte das 08h às 18h</li>
                     <li>Cobertura estadual</li>
                 </ul>
-                <a href="./orcamento.html" class="button second">Inscreva-se</a>
+                <a href="./budget.html?type=seguro&product=prata" class="button second">Inscreva-se</a>
             </div>
             <div class="seguro-item">
                 <h3 class="font-xl-b p1">OURO</h3>
@@ -75,7 +75,7 @@
                     <li>Desconto em parceiros</li>
                     <li>Acesso ao Clube Bikcraft</li>
                 </ul>
-                <a href="./orcamento.html" class="button">Inscreva-se</a>
+                <a href="./budget.html?type=seguro&product=ouro" class="button">Inscreva-se</a>
             </div>
         </div>
     </main>
@@ -129,42 +129,80 @@
         <h2 class="font-xxl">Perguntas frequentes<span class="p1">.</span></h2>
         <dl>
             <div>
-                <dt class="font-s c11">Qual a forma de pagamento que vocês aceitam?</dt>
-                <dd class="font-s-b c08">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, Elo e American
-                    Express. Para
-                    pagamentos a vista: Pix e Boleto através do PagSeguro</dd>
+                <dt>
+                    <button class="font-s c11" aria-controls="question1" aria-expanded="true">
+                        Qual a forma de pagamento que vocês aceitam?
+                    </button>
+                </dt>
+                <dd id="question1" class="font-s-b c08 active">
+                    Aceitamos cartões de crédito (Visa, Mastercard, Elo e American Express),
+                    Pix e boleto bancário. O parcelamento pode ser feito em até 12x no cartão.
+                </dd>
             </div>
+
             <div>
-                <dt class="font-s c11">Como posso entrar em contato?</dt>
-                <dd class="font-s-b c08">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, Elo e American
-                    Express. Para
-                    pagamentos a vista: Pix e Boleto através do PagSeguro</dd>
+                <dt>
+                    <button class="font-s c11" aria-controls="question2" aria-expanded="false">
+                        Como posso entrar em contato?
+                    </button>
+                </dt>
+                <dd id="question2" class="font-s-b c08">
+                    Você pode falar com a gente pelo WhatsApp, e-mail ou através do formulário
+                    de contato no site. Nosso atendimento funciona de segunda a sexta,
+                    das 9h às 18h.
+                </dd>
             </div>
+
             <div>
-                <dt class="font-s c11">Vocês possuem algum desconto?</dt>
-                <dd class="font-s-b c08">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, Elo e American
-                    Express. Para
-                    pagamentos a vista: Pix e Boleto através do PagSeguro</dd>
+                <dt>
+                    <button class="font-s c11" aria-controls="question3" aria-expanded="false">
+                        Vocês possuem algum desconto?
+                    </button>
+                </dt>
+                <dd id="question3" class="font-s-b c08">
+                    Sim! Oferecemos 5% de desconto para pagamentos via Pix e também
+                    disponibilizamos cupons promocionais em campanhas sazonais.
+                </dd>
             </div>
+
             <div>
-                <dt class="font-s c11">Qual é a garantia que possuo?</dt>
-                <dd class="font-s-b c08">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, Elo e American
-                    Express. Para
-                    pagamentos a vista: Pix e Boleto através do PagSeguro</dd>
+                <dt>
+                    <button class="font-s c11" aria-controls="question4" aria-expanded="false">
+                        Qual é a garantia que possuo?
+                    </button>
+                </dt>
+                <dd id="question4" class="font-s-b c08">
+                    Todos os nossos produtos possuem garantia de 12 meses contra defeitos
+                    de fabricação, conforme o Código de Defesa do Consumidor.
+                </dd>
             </div>
+
             <div>
-                <dt class="font-s c11">Posso parcelar no boleto?</dt>
-                <dd class="font-s-b c08">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, Elo e American
-                    Express. Para
-                    pagamentos a vista: Pix e Boleto através do PagSeguro</dd>
+                <dt>
+                    <button class="font-s c11" aria-controls="question5" aria-expanded="false">
+                        Posso parcelar no boleto?
+                    </button>
+                </dt>
+                <dd id="question5" class="font-s-b c08">
+                    No momento, o parcelamento está disponível apenas no cartão de crédito.
+                    O boleto é aceito somente para pagamento à vista.
+                </dd>
             </div>
+
             <div>
-                <dt class="font-s c11">Quantas trocar posso fazer ao ano?</dt>
-                <dd class="font-s-b c08">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, Elo e American
-                    Express. Para
-                    pagamentos a vista: Pix e Boleto através do PagSeguro</dd>
+                <dt>
+                    <button class="font-s c11" aria-controls="question6" aria-expanded="false">
+                        Quantas trocas posso fazer ao ano?
+                    </button>
+                </dt>
+                <dd id="question6" class="font-s-b c08">
+                    Você pode solicitar troca em até 7 dias após o recebimento do produto.
+                    Não há limite anual, desde que respeite o prazo e as condições da política de troca.
+                </dd>
             </div>
         </dl>
+
+
     </article>
 
     <footer class="footer-bg">
@@ -226,6 +264,8 @@
         </div>
         </div>
     </footer>
+
+    <script src="./scripts/script.js"></script>
 </body>
 
 </html>

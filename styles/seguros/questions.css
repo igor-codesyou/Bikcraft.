@@ -1,66 +1,79 @@
 .questions {
-    padding-top: 120px;
-    padding-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .questions h2 {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .questions dl > div {
-    padding: 20px;
-    border-radius: 6px;
+  padding: 20px;
+  border-radius: 6px;
 }
 
 .questions dl > div:nth-child(odd) {
-    background: #f6f6f6;
+  background: #f6f6f6;
 }
 
-.questions dt {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    align-items: center;
-    gap: 8px;
-    cursor: pointer;
+.questions button {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
 }
 
 /* BEFORE & AFTER */
 
-.questions dt::before {
-    content: "";
-    display: inline-block;
-    width: 12px;
-    height: 8px;
-    background: var(--p1);
+.questions button::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background: var(--p1);
 }
 
-.questions dt::after {
-    content: "";
-    display: inline-block;
-    width: 14px;
-    height: 6px;
-    background: url(../../img/icones/seta-abrir.svg);
-    transition: 0.3s;
+.questions button::after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 6px;
+  background: url(../../img/icones/seta-abrir.svg);
+  transition: 0.3s;
 }
 
-.questions dt:hover::after {
-    transform: rotate(180deg);
+.questions button:hover::after,
+.questions button[aria-expanded="true"]::after {
+  transform: rotate(180deg);
 }
 
 .questions dd {
-    padding-left: 20px;
-    padding-top: 16px;
-    max-width: 80ch;
+  display: none;
+}
+
+.questions dd.active {
+  display: block;
+}
+
+.questions dd {
+  padding-left: 20px;
+  padding-top: 16px;
+  max-width: 80ch;
 }
 
 /* MEDIA QUERIE */
 
 @media (max-width: 800px) {
-    .questions {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-    .questions h2 {
-        margin-bottom: 40px;
-    }
+  .questions {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .questions h2 {
+    margin-bottom: 40px;
+  }
 }
