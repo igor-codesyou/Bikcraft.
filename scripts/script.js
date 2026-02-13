@@ -47,3 +47,29 @@ function event__question(pergunta) {
 }
 
 questions.forEach(event__question);
+
+// GALERIA DE IMAGENS
+
+const galeria = document.querySelectorAll(".bik-imgs img");
+const galeria_container = document.querySelector(".bik-imgs");
+
+function trocar__img(e) {
+  const img = e.currentTarget;
+
+  const media = matchMedia("(min-width: 1000px)").matches;
+  if (media) {
+    galeria_container.prepend(img);
+  }
+}
+
+function galeria_event(img) {
+  img.addEventListener("click", trocar__img);
+}
+
+galeria.forEach(galeria_event);
+
+// SIMPLE ANIME
+
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
