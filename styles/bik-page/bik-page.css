@@ -116,4 +116,7 @@
   .btn-comprar {
     grid-template-columns: 1fr;
   }
+  .btn-comprar span {
+    width: max-content;
+  }
 }
